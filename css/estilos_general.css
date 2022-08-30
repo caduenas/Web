@@ -45,27 +45,18 @@
   #menu>li>ul:hover>li>ul{
     display: block;
   }
-  #espacio >fieldset {
+  #espacio{
     width: 100%;
     height: 500px;
     margin: auto;
+    color: #ffffff;
+    background-color: #201492;
   }
   #info >h2{
-    margin-top: 50%;
     color: #ffffff;
     float: center;
     text-align: center;
     background-color: rgb(255, 0, 0);
-  }
-  #espacio>h3>p{
-    width: 10%;
-    height: 20%;
-  }
-  #img_1{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    margin-left: 50%;
   }
   #Logo>fieldset{
     float: center;
@@ -75,22 +66,29 @@
     text-align: center;
     width: 25%;
     height: 10%;
-    margin-left: 63%;
-  
+    margin-left: 63%;  
   }
   #logo{
     text-align: center;
     width: 10%;
     height: 10%;
   }
+  #img_1{
+    width: 25%;
+    object-fit: contain;
+    margin-left: 5%;
+  }
   #img_2{
-    height: 100%;
-    width: 100%;
+    width: 25%;
     object-fit: contain;
-    margin-left: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
   }#img_3{
-    height: 100%;
-    width: 100%;
+    width: 25%;
     object-fit: contain;
-    margin-left: 50%;
+    margin-right: 5%;
+  }
+  #espacio>h3{
+    margin-left: 5%;
+    margin-right: 5%;
   }

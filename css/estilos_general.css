@@ -22,12 +22,12 @@
     
   }
   #menu li>a:hover{
-    color: rgb(255, 0, 0);
-    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    background-color:rgb(9, 110, 18);
   }
   #menu>li>ul>li>ul>li>a:hover{
-    background-color:rgb(255, 255, 255);
-    color:green;
+    background-color:rgb(9, 110, 18);
+    color: rgb(255, 255, 255);
   }
   #menu>li{
     float: center;
@@ -42,15 +42,17 @@
   #menu>li:hover>ul>li>ul{
     display: none;
   }
-  #menu>li>ul:hover>li>ul{
-    display: block;
+  #menu>li>ul>li:hover>ul{
+    display:block ;
+    float: center;
+    text-align: center;
   }
   #espacio{
     width: 100%;
-    height: 500px;
     margin: auto;
     color: #ffffff;
     background-color: #201492;
+    font-size: 200%;
   }
   #info >h2{
     color: #ffffff;
@@ -91,4 +93,9 @@
   #espacio>h3{
     margin-left: 5%;
     margin-right: 5%;
+  }
+  #espacio>fieldset>label{
+    width: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
   }

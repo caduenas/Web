@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Domi YA</title>
-        <link rel="shortcut icon" href="C:\Users\Estacion/Downloads\Web Pruebas\imagenes\logo.png">
+        <link rel="shortcut icon" href=".\imagenes\logo.png">
     </head>
     <body>
         <header>
-            <link href="C:\Users\Estacion/Downloads\Web Pruebas/css/estilos_pg2.css" rel="stylesheet" type="text/css">
-            <img src="C:\Users\Estacion/Downloads\Web Pruebas\imagenes\Logo.webp" width="150" height="150">
+            <link href="./css/estilos_general.css" rel="stylesheet" type="text/css">
+            <img id="logo" src="./imagenes/logo.png">
+            <img id="baner" src="./imagenes/baner.png">
             <nav>
                 <ul id="menu">
                     <li><a href="index.html">Inicio</a></li>
@@ -21,7 +22,20 @@
                                     <li><a href="./pizza.html">Pizza</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Mexicana</a></li>
+                            <li><a href="./menu_mexico.html">Mexicana</a>
+                                <ul>
+                                    <li><a href="./tacos.html">Tacos</a></li>
+                                    <li><a href="./Pozole.html">Pozole</a></li>
+                                    <li><a href="./Tlayudas.html">Tlayudas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./menu_peru.html">Peruana</a>
+                                <ul>
+                                    <li><a href="./Ceviche.html">Ceviche</a></li>
+                                    <li><a href="./aji_gallina.html">Aji gallina</a></li>
+                                    <li><a href="./Lomo_saltado.html">Lomo saltado</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li><a href="">Contacto</a></li>
@@ -29,8 +43,6 @@
             </nav>
         </header>
         <fieldset id="espacio" >
-            <legend>Platillos</legend>
-            
             <h2 id="label_1">Lasaña</h2>
             <h4>Ingredientes</h4>
             <p>
@@ -41,7 +53,7 @@
                 <li>2 tomates rojos medianos sin piel, finamente picados (240 g) </li>
                 <li>1 sobre de CALDO CON COSTILLA MAGGI® DESMENUZADO (9 g)</li>
                 <li>1 libra de carne molida magra (500 g)  </li>
-                <img src="C:\Users\Estacion/Downloads\Web Pruebas\imagenes/img_2.jpg"  style="margin-left: 65%; margin-top: -5%; width:25% ; height:5% ;" > 
+                <img src=".\imagenes/img_2.jpg"  > 
                 <li style="margin-top:-8.75%">1 1/2 tazas de agua (375 ml)</li>
                 <li>1/2 caja de pasta para lasaña precocida (250 g)</li>
                 <li>8 lonjas de queso mozzarella (136 g)</li>
@@ -64,20 +76,19 @@
                     PASO 6: Retira del horno y sirve</li>
             </ol>
         </fieldset>
-        <fieldset id="info" style= "background-color: red; font-family: Optima,courier,arial; padding-left: 25%; margin-top: 15%">
-            <font color="white">
-            <h2  style="font-size: 30px;" >Contacto</h2>
-            <p style="font-size: 20px;">
-                <img src=".\imagenes/img_3.webp" aling="right" width="30" height="30">
-                Whatsapp
-                <img src=".\imagenes/img_4.webp" aling="right" width="30" height="30">
-                Instagram
-                <img src=".\imagenes/img_5.webp" aling="right" width="30" height="30">
-                Facebook
-                <img src=".\imagenes/img_6.webp" aling="right" width="30" height="30">
-                Youtube
-                </font>    
-            </p>
+        <fieldset id="info">
+            <h2>Contacto
+                <p>
+                    <img src=".\imagenes/img_3.webp" aling="right" width="30" height="30">
+                    Whatsapp
+                    <img src=".\imagenes/img_4.webp" aling="right" width="30" height="30">
+                    Instagram
+                    <img src=".\imagenes/img_5.webp" aling="right" width="30" height="30">
+                    Facebook
+                    <img src=".\imagenes/img_6.webp" aling="right" width="30" height="30">
+                    Youtube
+                </p>
+            </h2>
         </fieldset>
     </body>
 </html>

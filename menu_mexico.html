@@ -6,8 +6,9 @@
     </head>
     <body>
         <header>
-            <link href="./css/estilos_pg2.css" rel="stylesheet" type="text/css">
-            <img src=".\imagenes\Logo.webp" width="150" height="150">
+            <link href="./css/estilos_general.css" rel="stylesheet" type="text/css">
+            <img id="logo" src=".\imagenes/logo.png">
+            <img id="baner" src="./imagenes/baner.png">
             <nav>
                 <ul id="menu">
                     <li><a href="index.html">Inicio</a></li>
@@ -20,12 +21,20 @@
                                     <li><a href="./pizza.html">Pizza</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./menu_mexico.html">Mexicana</a></li>
+                            <li><a href="./menu_mexico.html">Mexicana</a>
                                 <ul>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
+                                    <li><a href="./tacos.html">Tacos</a></li>
+                                    <li><a href="./Pozole.html">Pozole</a></li>
+                                    <li><a href="./Tlayudas.html">Tlayudas</a></li>
                                 </ul>
+                            </li>
+                            <li><a href="./menu_peru.html">Peruana</a>
+                                <ul>
+                                    <li><a href="./Ceviche.html">Ceviche</a></li>
+                                    <li><a href="./aji_gallina.html">Aji gallina</a></li>
+                                    <li><a href="./Lomo_saltado.html">Lomo saltado</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li><a href="">Contacto</a></li>
@@ -33,39 +42,38 @@
             </nav>
         </header>
         <fieldset>
-            <img src="./imagenes/baner.jpg" style="width: 100%;">
+            <img src="./imagenes/baner_mexico.webp" style="width: 100%;">
         </fieldset>
-        <fieldset id="espacio" style="font-family: Gill Sans, Gill Sans MT, Calibri,Trebuchet, sans-serif;">
-            <h3>Platillos</h3>
-            <p>
-                <a href="./lasaña.html">
-                    <img src="./imagenes/img_2.jpg" aling="left" style="width: 30% ;margin-left: 1%;">    
+        <fieldset id="espacio">
+            <fieldset>
+                <p>Platillos</p>
+                <a href="./tacos.html">
+                    <img id="img_1" src="./imagenes/img_9.jpg">    
                 </a>
-                <a href="./carbonara.html">
-                    <img src="./imagenes/img_7.jpg" aling="center" style="width: 35%; margin-left: 1%;">
+                <a href="./Pozole.html">
+                    <img id="img_2" src="./imagenes/img_10.jpg">
                 </a>
-                <a href="./pizza.html">
-                    <img src="./imagenes/img_8.jpg" aling="right" style="width: 30%; margin-left: 2%;">
+                <a href="./Tlayudas.html">
+                    <img id="img_3" src="./imagenes/img_11.jpeg">
                 </a>
-                <label style="margin-left: 14%;">Lasaña</label>
-                <label style="margin-left: 31%;">Carbonara</label>
-                <label style="margin-left: 32%;">Pizza</label>
-            </p>
+                <label>Tacos</label>
+                <label>Pozole</label>
+                <label>Tlayudas</label>
+            </fieldset> 
         </fieldset>
-        <fieldset id="info" style="background-color: red; font-family: Optima,courier,arial; padding-left: 25%; margin-top: 15%">
-            <font color="white">
-            <h2 style="font-size: 30px;">Contacto</h2>
-            </font><p style="font-size: 20px;"><font color="white">
-                <img src="./imagenes/img_3.webp" aling="right" width="30" height="30">
-                Whatsapp
-                <img src="./imagenes/img_4.webp" aling="right" width="30" height="30">
-                Instagram
-                <img src="./imagenes/img_5.webp" aling="right" width="30" height="30">
-                Facebook
-                <img src="./imagenes/img_6.webp" aling="right" width="30" height="30">
-                Youtube
-                </font>    
-            </p>
+        <fieldset id="info">
+            <h2>Contacto
+                <p>
+                    <img src=".\imagenes/img_3.webp" aling="right" width="30" height="30">
+                    Whatsapp
+                    <img src=".\imagenes/img_4.webp" aling="right" width="30" height="30">
+                    Instagram
+                    <img src=".\imagenes/img_5.webp" aling="right" width="30" height="30">
+                    Facebook
+                    <img src=".\imagenes/img_6.webp" aling="right" width="30" height="30">
+                    Youtube
+                </p>
+            </h2>
         </fieldset>
     </body>
 </html>

@@ -3,12 +3,13 @@
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
         <title>Domi YA</title>
-        <link rel="shortcut icon" href="C:\Users\Estacion/Downloads/Web%20Pruebas/imagenes/logo.png">
+        <link rel="shortcut icon" href="./imagenes/Logo.webp">
     </head>
     <body>
         <header>
             <link href="./css/estilos_general.css" rel="stylesheet" type="text/css">
-            <img src="C:\Users\Estacion/Downloads\Web Pruebas\imagenes\Logo.webp" width="150" height="150">
+            <img id ="logo" src="./imagenes/logo.png">
+            <img id="baner" src="./imagenes/baner.png">
             <nav>
                 <ul id="menu">
                     <li><a href="index.html">Inicio</a></li>
@@ -21,7 +22,20 @@
                                     <li><a href="./pizza.html">Pizza</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Mexicana</a></li>
+                            <li><a href="./menu_mexico.html">Mexicana</a>
+                                <ul>
+                                    <li><a href="./tacos.html">Tacos</a></li>
+                                    <li><a href="./Pozole.html">Pozole</a></li>
+                                    <li><a href="./Tlayudas.html">Tlayudas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./menu_peru.html">Peruana</a>
+                                <ul>
+                                    <li><a href="./Ceviche.html">Ceviche</a></li>
+                                    <li><a href="./aji_gallina.html">Aji gallina</a></li>
+                                    <li><a href="./Lomo_saltado.html">Lomo saltado</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li><a href="">Contacto</a></li>
@@ -29,11 +43,11 @@
             </nav>
         </header>
         <fieldset>
-            <img src="./imagenes/baner.jpg" style="width: 100%;">
+            <img src="./imagenes/baner_Italia.jpg" style="width: 100%;">
         </fieldset>
-        <fieldset id="espacio" style="font-family: Gill Sans, Gill Sans MT, Calibri,Trebuchet, sans-serif;">
-            <h3>Platillos</h3>
-            <p>
+        <fieldset id="espacio">
+            <fieldset>
+                <p>Platillos</p>
                 <a href="./lasaña.html">
                     <img src="./imagenes/img_2.jpg" aling="left" style="width: 30% ;margin-left: 1%;">    
                 </a>
@@ -43,25 +57,24 @@
                 <a href="./pizza.html">
                     <img src="./imagenes/img_8.jpg" aling="right" style="width: 30%; margin-left: 2%;">
                 </a>
-                <label style="margin-left: 14%;">Lasaña</label>
-                <label style="margin-left: 31%;">Carbonara</label>
-                <label style="margin-left: 32%;">Pizza</label>
-            </p>
+                <label>Lasaña</label>
+                <label>Carbonara</label>
+                <label>Pizza</label>
+            </fieldset>
         </fieldset>
-        <fieldset id="info" style="background-color: red; font-family: Optima,courier,arial; padding-left: 25%; margin-top: 15%">
-            <font color="white">
-            <h2 style="font-size: 30px;">Contacto</h2>
-            </font><p style="font-size: 20px;"><font color="white">
-                <img src="./imagenes/img_3.webp" aling="right" width="30" height="30">
-                Whatsapp
-                <img src="./imagenes/img_4.webp" aling="right" width="30" height="30">
-                Instagram
-                <img src="./imagenes/img_5.webp" aling="right" width="30" height="30">
-                Facebook
-                <img src="./imagenes/img_6.webp" aling="right" width="30" height="30">
-                Youtube
-                </font>    
-            </p>
+        <fieldset id="info">
+            <h2>Contacto
+                <p>
+                    <img src=".\imagenes/img_3.webp" aling="right" width="30" height="30">
+                    Whatsapp
+                    <img src=".\imagenes/img_4.webp" aling="right" width="30" height="30">
+                    Instagram
+                    <img src=".\imagenes/img_5.webp" aling="right" width="30" height="30">
+                    Facebook
+                    <img src=".\imagenes/img_6.webp" aling="right" width="30" height="30">
+                    Youtube
+                </p>
+            </h2>
         </fieldset>
     </body>
 </html>
